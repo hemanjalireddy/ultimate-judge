@@ -1,0 +1,13 @@
+{
+  "questions": [
+    {
+      "id": "short-sci-fi",
+      "prompt": "Recommend a science-fiction movie under 120 minutes from the supplied options.",
+      "criteria": ["Match genre and runtime requirements", "Use supplied movie facts accurately"]
+    },
+    {
+      "id": "highest-rating",
+      "prompt": "Which supplied movie has the highest rating? Explain using the provided facts."
+    }
+  ]
+}

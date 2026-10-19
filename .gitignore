@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data and results
+data/
+results/
+*.log
+
+# IDE
+.vscode/
+.idea/

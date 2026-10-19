@@ -1,0 +1,9 @@
+{
+  "benchmark": "examples/demo-benchmark.json",
+  "judges": ["openai/gpt-oss-20b", "qwen/qwen3.8-27b"],
+  "biases": ["position", "verbosity", "style", "self-preference"],
+  "trials": 3,
+  "seed": 42,
+  "mock": true,
+  "request_budget": 1000
+}

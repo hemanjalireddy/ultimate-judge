@@ -1,0 +1,10 @@
+{
+  "benchmark": "data/generated-benchmark.json",
+  "judges": ["openai/gpt-oss-20b", "qwen/qwen3.8-27b"],
+  "case_ids": ["sci-fi-runtime-01"],
+  "biases": ["position", "verbosity", "style", "self-preference"],
+  "trials": 3,
+  "seed": 42,
+  "mock": false,
+  "request_budget": 180
+}

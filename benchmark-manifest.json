@@ -1,0 +1,387 @@
+{
+  "version": "tmdb-scenarios-v1",
+  "snapshot": "sha256:1e0584a8dd374120e4ed4f2b81f0d2bd0eb95a554708e4a350d00ed5c46d2825",
+  "source": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata",
+  "cases": [
+    {
+      "id": "sci-fi-runtime-01",
+      "prompt": "Recommend a science-fiction movie under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        38,
+        5
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0
+      }
+    },
+    {
+      "id": "sci-fi-runtime-02",
+      "prompt": "Recommend a science-fiction movie under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        74
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0
+      }
+    },
+    {
+      "id": "sci-fi-runtime-03",
+      "prompt": "Recommend a science-fiction movie under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        75,
+        12
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0
+      }
+    },
+    {
+      "id": "sci-fi-runtime-04",
+      "prompt": "Recommend a science-fiction movie under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        78
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0
+      }
+    },
+    {
+      "id": "sci-fi-runtime-05",
+      "prompt": "Recommend a science-fiction movie under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        105,
+        14
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0
+      }
+    },
+    {
+      "id": "recent-thriller-01",
+      "prompt": "Recommend a thriller released in or after 2015 with a rating of at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        76341,
+        5
+      ],
+      "constraints": {
+        "genre": "Thriller",
+        "min_year": 2015,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "recent-thriller-02",
+      "prompt": "Recommend a thriller released in or after 2015 with a rating of at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        135397
+      ],
+      "constraints": {
+        "genre": "Thriller",
+        "min_year": 2015,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "recent-thriller-03",
+      "prompt": "Recommend a thriller released in or after 2015 with a rating of at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        177677,
+        12
+      ],
+      "constraints": {
+        "genre": "Thriller",
+        "min_year": 2015,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "recent-thriller-04",
+      "prompt": "Recommend a thriller released in or after 2015 with a rating of at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        192141
+      ],
+      "constraints": {
+        "genre": "Thriller",
+        "min_year": 2015,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "recent-thriller-05",
+      "prompt": "Recommend a thriller released in or after 2015 with a rating of at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        205775,
+        14
+      ],
+      "constraints": {
+        "genre": "Thriller",
+        "min_year": 2015,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "short-animation-01",
+      "prompt": "Recommend an animated movie under 100 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        35,
+        5
+      ],
+      "constraints": {
+        "genre": "Animation",
+        "max_runtime": 100.0
+      }
+    },
+    {
+      "id": "short-animation-02",
+      "prompt": "Recommend an animated movie under 100 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        408
+      ],
+      "constraints": {
+        "genre": "Animation",
+        "max_runtime": 100.0
+      }
+    },
+    {
+      "id": "short-animation-03",
+      "prompt": "Recommend an animated movie under 100 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        425,
+        12
+      ],
+      "constraints": {
+        "genre": "Animation",
+        "max_runtime": 100.0
+      }
+    },
+    {
+      "id": "short-animation-04",
+      "prompt": "Recommend an animated movie under 100 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        533
+      ],
+      "constraints": {
+        "genre": "Animation",
+        "max_runtime": 100.0
+      }
+    },
+    {
+      "id": "short-animation-05",
+      "prompt": "Recommend an animated movie under 100 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        585,
+        14
+      ],
+      "constraints": {
+        "genre": "Animation",
+        "max_runtime": 100.0
+      }
+    },
+    {
+      "id": "popular-comedy-01",
+      "prompt": "Recommend a comedy rated at least 7 with at least 1000 votes. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        5
+      ],
+      "constraints": {
+        "genre": "Comedy",
+        "min_rating": 7.0,
+        "min_votes": 1000
+      }
+    },
+    {
+      "id": "popular-comedy-02",
+      "prompt": "Recommend a comedy rated at least 7 with at least 1000 votes. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        100
+      ],
+      "constraints": {
+        "genre": "Comedy",
+        "min_rating": 7.0,
+        "min_votes": 1000
+      }
+    },
+    {
+      "id": "popular-comedy-03",
+      "prompt": "Recommend a comedy rated at least 7 with at least 1000 votes. Choose only from the supplied movies.",
+      "movie_ids": [
+        105,
+        12
+      ],
+      "constraints": {
+        "genre": "Comedy",
+        "min_rating": 7.0,
+        "min_votes": 1000
+      }
+    },
+    {
+      "id": "popular-comedy-04",
+      "prompt": "Recommend a comedy rated at least 7 with at least 1000 votes. Choose only from the supplied movies.",
+      "movie_ids": [
+        14,
+        114
+      ],
+      "constraints": {
+        "genre": "Comedy",
+        "min_rating": 7.0,
+        "min_votes": 1000
+      }
+    },
+    {
+      "id": "popular-comedy-05",
+      "prompt": "Recommend a comedy rated at least 7 with at least 1000 votes. Choose only from the supplied movies.",
+      "movie_ids": [
+        115,
+        16
+      ],
+      "constraints": {
+        "genre": "Comedy",
+        "min_rating": 7.0,
+        "min_votes": 1000
+      }
+    },
+    {
+      "id": "modern-drama-01",
+      "prompt": "Recommend a drama from 2010 or later under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        7978,
+        5
+      ],
+      "constraints": {
+        "genre": "Drama",
+        "max_runtime": 120.0,
+        "min_year": 2010
+      }
+    },
+    {
+      "id": "modern-drama-02",
+      "prompt": "Recommend a drama from 2010 or later under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        10316
+      ],
+      "constraints": {
+        "genre": "Drama",
+        "max_runtime": 120.0,
+        "min_year": 2010
+      }
+    },
+    {
+      "id": "modern-drama-03",
+      "prompt": "Recommend a drama from 2010 or later under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        10317,
+        12
+      ],
+      "constraints": {
+        "genre": "Drama",
+        "max_runtime": 120.0,
+        "min_year": 2010
+      }
+    },
+    {
+      "id": "modern-drama-04",
+      "prompt": "Recommend a drama from 2010 or later under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        12201
+      ],
+      "constraints": {
+        "genre": "Drama",
+        "max_runtime": 120.0,
+        "min_year": 2010
+      }
+    },
+    {
+      "id": "modern-drama-05",
+      "prompt": "Recommend a drama from 2010 or later under 120 minutes. Choose only from the supplied movies.",
+      "movie_ids": [
+        20533,
+        14
+      ],
+      "constraints": {
+        "genre": "Drama",
+        "max_runtime": 120.0,
+        "min_year": 2010
+      }
+    },
+    {
+      "id": "family-runtime-01",
+      "prompt": "Recommend a family movie under 100 minutes rated at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        35,
+        5
+      ],
+      "constraints": {
+        "genre": "Family",
+        "max_runtime": 100.0,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "family-runtime-02",
+      "prompt": "Recommend a family movie under 100 minutes rated at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        11,
+        408
+      ],
+      "constraints": {
+        "genre": "Family",
+        "max_runtime": 100.0,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "family-runtime-03",
+      "prompt": "Recommend a family movie under 100 minutes rated at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        425,
+        12
+      ],
+      "constraints": {
+        "genre": "Family",
+        "max_runtime": 100.0,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "family-runtime-04",
+      "prompt": "Recommend a family movie under 100 minutes rated at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        13,
+        533
+      ],
+      "constraints": {
+        "genre": "Family",
+        "max_runtime": 100.0,
+        "min_rating": 6.5
+      }
+    },
+    {
+      "id": "family-runtime-05",
+      "prompt": "Recommend a family movie under 100 minutes rated at least 6.5. Choose only from the supplied movies.",
+      "movie_ids": [
+        585,
+        14
+      ],
+      "constraints": {
+        "genre": "Family",
+        "max_runtime": 100.0,
+        "min_rating": 6.5
+      }
+    }
+  ]
+}

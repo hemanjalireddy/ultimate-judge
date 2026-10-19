@@ -1,0 +1,23 @@
+name: Offline checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install poetry==2.4.1
+      - run: poetry install --no-interaction
+      - run: poetry run pytest -q
+      - run: poetry run python -m benchmark --config configs/demo.json
+      - run: docker build -t ultimate-judge .
+      - run: |
+          docker run -d --name judge -p 8501:8501 ultimate-judge
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:8501/_stcore/health; then exit 0; fi
+            sleep 2
+          done
+          docker logs judge
+          exit 1

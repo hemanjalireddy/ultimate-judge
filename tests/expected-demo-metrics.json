@@ -1,0 +1,314 @@
+[
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "position consistency",
+    "numerator": 0.0,
+    "n": 6,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "decisive flip rate",
+    "numerator": 6.0,
+    "n": 6,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "tie transition rate",
+    "numerator": 0.0,
+    "n": 6,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "repeatability",
+    "numerator": 60.0,
+    "n": 60,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "first-position preference",
+    "numerator": 12.0,
+    "n": 12,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "reviewed verbosity preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "reviewed style preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "own-answer preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "reference agreement",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "tie rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "invalid output rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "openai/gpt-oss-20b",
+    "metric": "API failure rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "position consistency",
+    "numerator": 0.0,
+    "n": 6,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "decisive flip rate",
+    "numerator": 6.0,
+    "n": 6,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "tie transition rate",
+    "numerator": 0.0,
+    "n": 6,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "repeatability",
+    "numerator": 60.0,
+    "n": 60,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "first-position preference",
+    "numerator": 12.0,
+    "n": 12,
+    "cases": 2,
+    "value": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "reviewed verbosity preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "reviewed style preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "own-answer preference",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "reference agreement",
+    "numerator": 0,
+    "n": 0,
+    "cases": 0,
+    "value": null,
+    "ci95": null,
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "tie rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "invalid output rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  },
+  {
+    "judge": "qwen/qwen3.8-27b",
+    "metric": "API failure rate",
+    "numerator": 0.0,
+    "n": 60,
+    "cases": 2,
+    "value": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "observations": 60,
+    "valid_observations": 60
+  }
+]

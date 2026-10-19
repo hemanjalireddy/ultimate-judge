@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ultimate-judge"
+version = "0.1.0"
+description = "Small movie-based LLM judge experiments"
+authors = []
+package-mode = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+streamlit = "^1.65.0"
+pydantic = "^2.14.1"
+groq = "^1.7.0"
+plotly = "^7.1.0"
+filelock = "^4.1.2"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]

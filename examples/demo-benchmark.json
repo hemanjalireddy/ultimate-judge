@@ -1,0 +1,200 @@
+{
+  "version": "benchmark-v1",
+  "snapshot": "synthetic-demo-v1",
+  "source": "Authored fictional fixtures; not TMDB data",
+  "mock": true,
+  "cases": [
+    {
+      "id": "demo-1",
+      "prompt": "Recommend a science-fiction movie under 120 minutes.",
+      "movie_facts": [
+        {
+          "id": 1,
+          "title": "Demo Orbit",
+          "genres": [
+            "Science Fiction"
+          ],
+          "runtime": 95.0,
+          "year": 2020,
+          "rating": 7.0,
+          "votes": 100,
+          "director": null
+        },
+        {
+          "id": 2,
+          "title": "Demo Meadow",
+          "genres": [
+            "Drama"
+          ],
+          "runtime": 135.0,
+          "year": 2018,
+          "rating": 6.0,
+          "votes": 80,
+          "director": null
+        }
+      ],
+      "criteria": [
+        "Meet genre and runtime requirements"
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0,
+        "min_year": null,
+        "min_rating": null,
+        "min_votes": null,
+        "director": null
+      },
+      "candidates": [
+        {
+          "id": "c0",
+          "text": "I recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "generator": "mock-generator-x",
+          "generation": null
+        },
+        {
+          "id": "c1",
+          "text": "I recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "generator": "mock-generator-y",
+          "generation": null
+        }
+      ],
+      "transformations": [
+        {
+          "bias": "verbosity",
+          "candidate_id": "c0",
+          "text": "I recommend Demo Orbit. It is science fiction and runs for 95 minutes.\n\nI recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "kind": "exact-repetition",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "style",
+          "candidate_id": "c0",
+          "text": "> I recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "kind": "blockquote-formatting",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "verbosity",
+          "candidate_id": "c1",
+          "text": "I recommend Demo Meadow. It is a drama and runs for 135 minutes.\n\nI recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "kind": "exact-repetition",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "style",
+          "candidate_id": "c1",
+          "text": "> I recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "kind": "blockquote-formatting",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        }
+      ],
+      "ground_truth": "uncertain",
+      "reference_review": "unreviewed",
+      "reference_reviewer": null
+    },
+    {
+      "id": "demo-2",
+      "prompt": "Recommend a science-fiction movie under 120 minutes.",
+      "movie_facts": [
+        {
+          "id": 1,
+          "title": "Demo Orbit",
+          "genres": [
+            "Science Fiction"
+          ],
+          "runtime": 95.0,
+          "year": 2020,
+          "rating": 7.0,
+          "votes": 100,
+          "director": null
+        },
+        {
+          "id": 2,
+          "title": "Demo Meadow",
+          "genres": [
+            "Drama"
+          ],
+          "runtime": 135.0,
+          "year": 2018,
+          "rating": 6.0,
+          "votes": 80,
+          "director": null
+        }
+      ],
+      "criteria": [
+        "Meet genre and runtime requirements"
+      ],
+      "constraints": {
+        "genre": "Science Fiction",
+        "max_runtime": 120.0,
+        "min_year": null,
+        "min_rating": null,
+        "min_votes": null,
+        "director": null
+      },
+      "candidates": [
+        {
+          "id": "c0",
+          "text": "I recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "generator": "mock-generator-x",
+          "generation": null
+        },
+        {
+          "id": "c1",
+          "text": "I recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "generator": "mock-generator-y",
+          "generation": null
+        }
+      ],
+      "transformations": [
+        {
+          "bias": "verbosity",
+          "candidate_id": "c0",
+          "text": "I recommend Demo Orbit. It is science fiction and runs for 95 minutes.\n\nI recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "kind": "exact-repetition",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "style",
+          "candidate_id": "c0",
+          "text": "> I recommend Demo Orbit. It is science fiction and runs for 95 minutes.",
+          "kind": "blockquote-formatting",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "verbosity",
+          "candidate_id": "c1",
+          "text": "I recommend Demo Meadow. It is a drama and runs for 135 minutes.\n\nI recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "kind": "exact-repetition",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        },
+        {
+          "bias": "style",
+          "candidate_id": "c1",
+          "text": "> I recommend Demo Meadow. It is a drama and runs for 135 minutes.",
+          "kind": "blockquote-formatting",
+          "review": "unreviewed",
+          "reviewer": null,
+          "assertion": null
+        }
+      ],
+      "ground_truth": "uncertain",
+      "reference_review": "unreviewed",
+      "reference_reviewer": null
+    }
+  ]
+}
